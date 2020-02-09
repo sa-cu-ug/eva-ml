@@ -1,0 +1,51 @@
+{
+  "name": "TestingTensorflow2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.7.1",
+    "@tensorflow-models/knn-classifier": "^1.2.2",
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^1.5.1",
+    "@tensorflow/tfjs-react-native": "0.1.0-alpha.2",
+    "buffer": "^5.4.3",
+    "expo-gl": "^8.0.0",
+    "expo-gl-cpp": "^8.0.0",
+    "get-image-data": "^4.1.0",
+    "jpeg-js": "^0.3.6",
+    "react": "16.8.6",
+    "react-native": "0.60.3",
+    "react-native-camera": "^3.17.0",
+    "react-native-fs": "^2.16.2",
+    "react-native-unimodules": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "@types/jest": "^24.0.15",
+    "@types/react": "^16.8.23",
+    "@types/react-native": "^0.60.1",
+    "@types/react-test-renderer": "^16.8.2",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.6",
+    "typescript": "^3.5.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
